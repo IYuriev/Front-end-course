@@ -76,16 +76,109 @@ body {
 .offer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 230px;
+  padding-top: 186px;
+  background-image: url(../img/Ellipse_20.png), url(../img/man.png),
+    url(../img/rectangle.png), url(../img/Ellipse_21.png),
+    url(../img/Ellipse_22.png);
+  background-position: -80px 0, 100% 100%, 86% 100%, 800px 80px, 600px 350px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .offer__holder {
   width: 648px;
+  height: 596px;
 }
 
 .offer__title {
   font-size: 58px;
   font-weight: 700;
   line-height: 70px;
+  margin: 0 0 18px;
+}
+
+.offer__desription {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 62px;
+  font-weight: 400;
+}
+
+.offer__desription-link {
+  color: #504dee;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fbfbfc;
+  padding: 16px 37px;
+  background: #504dee;
+  border: none;
+}
+
+.offer__sale {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  margin: 110px 0 0;
+}
+
+.offer__time {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 8px 0 0;
+}
+
+.offer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  position: relative;
+}
+
+.offer__item {
+  position: absolute;
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.offer__marketer {
+  top: 20px;
+  right: 70px;
+}
+
+.offer__illustrator {
+  top: -90px;
+  right: 325px;
+}
+
+.offer__animator {
+  top: 0;
+  left: 50px;
+}
+
+.offer__programmer {
+  top: 200px;
+  left: -100px;
+}
+
+.offer__designer {
+  top: 360px;
+  left: -200px;
+}
+
+.offer__photographer {
+  top: 525px;
+  left: -125px;
 }
 
 .footer {
@@ -96,8 +189,6 @@ body {
 .footer__container {
   display: flex;
   padding: 68px 0 0;
-  width: 1440px;
-  margin: 0 auto;
 }
 
 .footer__box {
