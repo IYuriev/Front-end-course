@@ -477,3 +477,88 @@ body {
   font-size: 18px;
   line-height: 28px;
 }
+
+@media (max-width: 1439px) {
+  .container {
+    width: auto;
+    margin: 0 10px;
+  }
+
+  .offer__marketer {
+    top: 250px;
+    right: 10px;
+  }
+
+  .offer__illustrator {
+    top: 140px;
+    right: 50px;
+  }
+
+  .offer__animator {
+    top: 40px;
+    left: 50px;
+  }
+
+  .offer__programmer {
+    top: 180px;
+    left: -280px;
+  }
+
+  .offer__designer {
+    top: 460px;
+    left: -420px;
+  }
+
+  .offer__photographer {
+    top: 625px;
+    left: -425px;
+  }
+
+  .learn__container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .learn__counters {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+  }
+
+  .discover__menu {
+    gap: 100px;
+  }
+
+  .discover__list {
+    gap: 18px;
+  }
+
+  .discover__cards {
+    display: block;
+  }
+
+  .discover__card-item {
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .discover__card-text {
+    padding-left: 10px;
+  }
+
+  .find-program__title {
+    width: 550px;
+  }
+
+  .input-form {
+    width: 450px;
+  }
+
+  .sitemap__container {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding-left: 140px;
+  }
+}
