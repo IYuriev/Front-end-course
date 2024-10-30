@@ -62,6 +62,10 @@ body {
   font-weight: 700;
 }
 
+.header__btn:hover {
+  background: #313135;
+}
+
 .logo {
   font-weight: 800;
   font-size: 24px;
@@ -118,6 +122,10 @@ body {
   padding: 16px 37px;
   background: #504dee;
   border: none;
+}
+
+.button:hover {
+  background: #5a58e3;
 }
 
 .offer__sale {
@@ -381,6 +389,10 @@ body {
   line-height: 22px;
 }
 
+.find-program__button:hover {
+  background: #313135;
+}
+
 .footer {
   background: #19191c;
   justify-content: space-between;
@@ -561,4 +573,15 @@ body {
     gap: 50px;
     padding-left: 140px;
   }
+}
+
+button {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
 }
